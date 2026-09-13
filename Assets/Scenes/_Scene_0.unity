@@ -273,6 +273,7 @@ MonoBehaviour:
   numBaskets: 3
   basketBottomY: -14
   basketSpacingY: 2
+  basketList: []
 --- !u!1 &366324284
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +594,7 @@ GameObject:
   - component: {fileID: 593849299}
   - component: {fileID: 593849301}
   - component: {fileID: 593849302}
+  - component: {fileID: 593849303}
   m_Layer: 5
   m_Name: HighScore
   m_TagString: Untagged
@@ -661,6 +663,18 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'High Score: 1,000'
+--- !u!114 &593849303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593849298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92f3f5047fe2dc4681fa7dd080f59d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HighScore
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
